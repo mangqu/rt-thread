@@ -1,0 +1,16 @@
+.\build\demo_simple_workbench.o: ..\..\examples\gui\demo_simple_workbench.c
+.\build\demo_simple_workbench.o: ..\..\include\rtthread.h
+.\build\demo_simple_workbench.o: .\rtconfig.h
+.\build\demo_simple_workbench.o: ..\..\include\rtdebug.h
+.\build\demo_simple_workbench.o: ..\..\include\rtdef.h
+.\build\demo_simple_workbench.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\demo_simple_workbench.o: ..\..\include\rtservice.h
+.\build\demo_simple_workbench.o: ..\..\include\rtm.h
+.\build\demo_simple_workbench.o: ..\..\include\rtthread.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/rtgui_server.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/list.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/rtgui.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/rtgui_config.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/rtgui_object.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/rtgui.h
+.\build\demo_simple_workbench.o: ..\..\components\gui\include\rtgui/rtgui_system.h

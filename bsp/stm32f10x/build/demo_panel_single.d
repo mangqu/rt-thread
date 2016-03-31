@@ -1,0 +1,17 @@
+.\build\demo_panel_single.o: ..\..\examples\gui\demo_panel_single.c
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/rtgui.h
+.\build\demo_panel_single.o: ..\..\include\rtthread.h
+.\build\demo_panel_single.o: .\rtconfig.h
+.\build\demo_panel_single.o: ..\..\include\rtdebug.h
+.\build\demo_panel_single.o: ..\..\include\rtdef.h
+.\build\demo_panel_single.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\demo_panel_single.o: ..\..\include\rtservice.h
+.\build\demo_panel_single.o: ..\..\include\rtm.h
+.\build\demo_panel_single.o: ..\..\include\rtthread.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/rtgui_config.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/rtgui_object.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/rtgui.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/driver.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/list.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/color.h
+.\build\demo_panel_single.o: ..\..\components\gui\include\rtgui/rtgui_server.h

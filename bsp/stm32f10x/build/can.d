@@ -1,0 +1,13 @@
+.\build\can.o: ..\..\components\drivers\can\can.c
+.\build\can.o: ..\..\include\rthw.h
+.\build\can.o: ..\..\include\rtthread.h
+.\build\can.o: .\rtconfig.h
+.\build\can.o: ..\..\include\rtdebug.h
+.\build\can.o: ..\..\include\rtdef.h
+.\build\can.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\can.o: ..\..\include\rtservice.h
+.\build\can.o: ..\..\include\rtm.h
+.\build\can.o: ..\..\include\rtthread.h
+.\build\can.o: ..\..\components\drivers\include\rtdevice.h
+.\build\can.o: ..\..\components\drivers\include\drivers/serial.h
+.\build\can.o: ..\..\components\drivers\include\drivers/can.h

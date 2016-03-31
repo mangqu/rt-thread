@@ -1,0 +1,37 @@
+.\build\window.o: ..\..\components\gui\src\window.c
+.\build\window.o: ..\..\components\gui\include\rtgui/dc.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui.h
+.\build\window.o: ..\..\include\rtthread.h
+.\build\window.o: .\rtconfig.h
+.\build\window.o: ..\..\include\rtdebug.h
+.\build\window.o: ..\..\include\rtdef.h
+.\build\window.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\window.o: ..\..\include\rtservice.h
+.\build\window.o: ..\..\include\rtm.h
+.\build\window.o: ..\..\include\rtthread.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui_config.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui_object.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui.h
+.\build\window.o: ..\..\components\gui\include\rtgui/font.h
+.\build\window.o: ..\..\components\gui\include\rtgui/list.h
+.\build\window.o: ..\..\components\gui\include\rtgui/tree.h
+.\build\window.o: ..\..\components\gui\include\rtgui/driver.h
+.\build\window.o: ..\..\components\gui\include\rtgui/color.h
+.\build\window.o: ..\..\components\gui\include\rtgui/widgets/widget.h
+.\build\window.o: ..\..\components\gui\include\rtgui/region.h
+.\build\window.o: ..\..\components\gui\include\rtgui/event.h
+.\build\window.o: ..\..\components\drivers\include\rtdevice.h
+.\build\window.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\window.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\window.o: ..\..\components\drivers\include\drivers/serial.h
+.\build\window.o: ..\..\components\gui\include\rtgui/kbddef.h
+.\build\window.o: ..\..\components\gui\include\rtgui/image.h
+.\build\window.o: ..\..\components\gui\include\rtgui/filerw.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui_system.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui_server.h
+.\build\window.o: ..\..\components\gui\include\rtgui/rtgui_app.h
+.\build\window.o: ..\..\components\gui\include\rtgui/widgets/window.h
+.\build\window.o: ..\..\components\gui\include\rtgui/widgets/box.h
+.\build\window.o: ..\..\components\gui\include\rtgui/widgets/container.h
+.\build\window.o: ..\..\components\gui\include\rtgui/widgets/box.h
+.\build\window.o: ..\..\components\gui\include\rtgui/widgets/title.h

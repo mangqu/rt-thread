@@ -1,0 +1,9 @@
+.\build\demo_xml.o: ..\..\examples\gui\demo_xml.c
+.\build\demo_xml.o: ..\..\include\rtthread.h
+.\build\demo_xml.o: .\rtconfig.h
+.\build\demo_xml.o: ..\..\include\rtdebug.h
+.\build\demo_xml.o: ..\..\include\rtdef.h
+.\build\demo_xml.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\demo_xml.o: ..\..\include\rtservice.h
+.\build\demo_xml.o: ..\..\include\rtm.h
+.\build\demo_xml.o: ..\..\include\rtthread.h
