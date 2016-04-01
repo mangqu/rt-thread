@@ -13,6 +13,8 @@
 .\build\server.o: ..\..\components\gui\include\rtgui/rtgui.h
 .\build\server.o: ..\..\components\gui\include\rtgui/event.h
 .\build\server.o: ..\..\components\drivers\include\rtdevice.h
+.\build\server.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\server.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\server.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\server.o: ..\..\components\drivers\include\drivers/can.h
 .\build\server.o: ..\..\components\gui\include\rtgui/kbddef.h
@@ -33,6 +35,13 @@
 .\build\server.o: ..\..\components\gui\src\mouse.h
 .\build\server.o: ..\..\components\gui\include\rtgui/image.h
 .\build\server.o: ..\..\components\gui\include\rtgui/filerw.h
+.\build\server.o: ..\..\components\dfs\include\dfs_posix.h
+.\build\server.o: ..\..\components\dfs\include\dfs_file.h
+.\build\server.o: ..\..\components\dfs\include\dfs_def.h
+.\build\server.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\server.o: ..\..\components\dfs\include\dfs.h
+.\build\server.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\build\server.o: ..\..\components\dfs\include\dfs_fs.h
 .\build\server.o: ..\..\components\gui\src\topwin.h
 .\build\server.o: ..\..\components\gui\include\rtgui/widgets/title.h
 .\build\server.o: ..\..\components\gui\include\rtgui/rtgui_server.h

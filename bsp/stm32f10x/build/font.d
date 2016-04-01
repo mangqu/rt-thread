@@ -21,6 +21,8 @@
 .\build\font.o: ..\..\components\gui\include\rtgui/region.h
 .\build\font.o: ..\..\components\gui\include\rtgui/event.h
 .\build\font.o: ..\..\components\drivers\include\rtdevice.h
+.\build\font.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\font.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\font.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\font.o: ..\..\components\drivers\include\drivers/can.h
 .\build\font.o: ..\..\components\gui\include\rtgui/kbddef.h

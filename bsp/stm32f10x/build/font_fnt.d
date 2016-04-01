@@ -22,6 +22,8 @@
 .\build\font_fnt.o: ..\..\components\gui\include\rtgui/region.h
 .\build\font_fnt.o: ..\..\components\gui\include\rtgui/event.h
 .\build\font_fnt.o: ..\..\components\drivers\include\rtdevice.h
+.\build\font_fnt.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\font_fnt.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\font_fnt.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\font_fnt.o: ..\..\components\drivers\include\drivers/can.h
 .\build\font_fnt.o: ..\..\components\gui\include\rtgui/kbddef.h

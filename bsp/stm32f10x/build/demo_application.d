@@ -15,6 +15,8 @@
 .\build\demo_application.o: ..\..\components\gui\include\rtgui/rtgui_app.h
 .\build\demo_application.o: ..\..\components\gui\include\rtgui/event.h
 .\build\demo_application.o: ..\..\components\drivers\include\rtdevice.h
+.\build\demo_application.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\demo_application.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\demo_application.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\demo_application.o: ..\..\components\drivers\include\drivers/can.h
 .\build\demo_application.o: ..\..\components\gui\include\rtgui/kbddef.h
@@ -31,3 +33,6 @@
 .\build\demo_application.o: ..\..\components\gui\include\rtgui/widgets/window.h
 .\build\demo_application.o: ..\..\components\gui\include\rtgui/dc.h
 .\build\demo_application.o: ..\..\components\gui\include\rtgui/driver.h
+.\build\demo_application.o: ..\..\components\finsh\finsh.h
+.\build\demo_application.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\demo_application.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h

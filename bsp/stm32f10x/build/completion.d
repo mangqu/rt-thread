@@ -9,5 +9,7 @@
 .\build\completion.o: ..\..\include\rtm.h
 .\build\completion.o: ..\..\include\rtthread.h
 .\build\completion.o: ..\..\components\drivers\include\rtdevice.h
+.\build\completion.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\completion.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\completion.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\completion.o: ..\..\components\drivers\include\drivers/can.h

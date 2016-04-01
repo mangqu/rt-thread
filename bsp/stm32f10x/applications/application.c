@@ -74,25 +74,27 @@ static void led_thread_entry(void* parameter)
 
 void rt_init_thread_entry(void* parameter)
 {
+	{
+		rt_platform_init();
+	}
 #ifdef RT_USING_COMPONENTS_INIT
-    /* initialization RT-Thread Components */
-    rt_components_init();
+	/* initialization RT-Thread Components */
+	rt_components_init();
 #endif
 
 #ifdef  RT_USING_FINSH
 	finsh_system_init();
-    finsh_set_device(RT_CONSOLE_DEVICE_NAME);
+	finsh_set_device(RT_CONSOLE_DEVICE_NAME);
 #endif  /* RT_USING_FINSH */
 
     /* Filesystem Initialization */
 #if defined(RT_USING_DFS) && defined(RT_USING_DFS_ELMFAT)
-    /* mount sd card fat partition 1 as root directory */
-    if (dfs_mount("sd0", "/", "elm", 0, 0) == 0)
-    {
-        rt_kprintf("File System initialized!\n");
-    }
-    else
-        rt_kprintf("File System initialzation failed!\n");
+	if (dfs_mount("flash0", "/", "elm", 0, 0) == 0)
+	{
+	    rt_kprintf("flash0 mount to /.\n");
+	}
+	else
+		rt_kprintf("flash0 mount to / failed.\n");
 #endif  /* RT_USING_DFS */
 
 #ifdef RT_USING_RTGUI

@@ -9,6 +9,8 @@
 .\build\gpio.o: ..\..\include\rtm.h
 .\build\gpio.o: ..\..\include\rtthread.h
 .\build\gpio.o: ..\..\components\drivers\include\rtdevice.h
+.\build\gpio.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\gpio.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\gpio.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\gpio.o: ..\..\components\drivers\include\drivers/can.h
 .\build\gpio.o: drivers\board.h

@@ -9,5 +9,10 @@
 .\build\can.o: ..\..\include\rtm.h
 .\build\can.o: ..\..\include\rtthread.h
 .\build\can.o: ..\..\components\drivers\include\rtdevice.h
+.\build\can.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\can.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\can.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\can.o: ..\..\components\drivers\include\drivers/can.h
+.\build\can.o: ..\..\components\finsh\finsh.h
+.\build\can.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\can.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h

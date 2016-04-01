@@ -15,6 +15,8 @@
 .\build\topwin.o: ..\..\components\gui\include\rtgui/region.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/event.h
 .\build\topwin.o: ..\..\components\drivers\include\rtdevice.h
+.\build\topwin.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\topwin.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\topwin.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\topwin.o: ..\..\components\drivers\include\drivers/can.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/kbddef.h
@@ -30,9 +32,18 @@
 .\build\topwin.o: ..\..\components\gui\include\rtgui/dc.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/driver.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/filerw.h
+.\build\topwin.o: ..\..\components\dfs\include\dfs_posix.h
+.\build\topwin.o: ..\..\components\dfs\include\dfs_file.h
+.\build\topwin.o: ..\..\components\dfs\include\dfs_def.h
+.\build\topwin.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\topwin.o: ..\..\components\dfs\include\dfs.h
+.\build\topwin.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\build\topwin.o: ..\..\components\dfs\include\dfs_fs.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/widgets/window.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/widgets/box.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/widgets/container.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/widgets/box.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/rtgui_system.h
 .\build\topwin.o: ..\..\components\gui\include\rtgui/rtgui_app.h
+.\build\topwin.o: ..\..\components\finsh\finsh.h
+.\build\topwin.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h

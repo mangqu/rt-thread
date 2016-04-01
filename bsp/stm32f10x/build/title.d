@@ -23,6 +23,8 @@
 .\build\title.o: ..\..\components\gui\include\rtgui/region.h
 .\build\title.o: ..\..\components\gui\include\rtgui/event.h
 .\build\title.o: ..\..\components\drivers\include\rtdevice.h
+.\build\title.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\title.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\title.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\title.o: ..\..\components\drivers\include\drivers/can.h
 .\build\title.o: ..\..\components\gui\include\rtgui/kbddef.h

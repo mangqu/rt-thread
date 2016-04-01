@@ -15,6 +15,8 @@
 .\build\rtgui_app.o: ..\..\components\gui\include\rtgui/rtgui_app.h
 .\build\rtgui_app.o: ..\..\components\gui\include\rtgui/event.h
 .\build\rtgui_app.o: ..\..\components\drivers\include\rtdevice.h
+.\build\rtgui_app.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\rtgui_app.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\rtgui_app.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\rtgui_app.o: ..\..\components\drivers\include\drivers/can.h
 .\build\rtgui_app.o: ..\..\components\gui\include\rtgui/kbddef.h

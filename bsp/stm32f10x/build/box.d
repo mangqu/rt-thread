@@ -21,6 +21,8 @@
 .\build\box.o: ..\..\components\gui\include\rtgui/region.h
 .\build\box.o: ..\..\components\gui\include\rtgui/event.h
 .\build\box.o: ..\..\components\drivers\include\rtdevice.h
+.\build\box.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\box.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\box.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\box.o: ..\..\components\drivers\include\drivers/can.h
 .\build\box.o: ..\..\components\gui\include\rtgui/kbddef.h

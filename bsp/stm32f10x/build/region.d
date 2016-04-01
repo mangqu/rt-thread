@@ -22,6 +22,8 @@
 .\build\region.o: ..\..\components\gui\include\rtgui/widgets/widget.h
 .\build\region.o: ..\..\components\gui\include\rtgui/event.h
 .\build\region.o: ..\..\components\drivers\include\rtdevice.h
+.\build\region.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\region.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\region.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\region.o: ..\..\components\drivers\include\drivers/can.h
 .\build\region.o: ..\..\components\gui\include\rtgui/kbddef.h

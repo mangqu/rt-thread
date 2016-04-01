@@ -8,3 +8,7 @@
 .\build\mem.o: ..\..\include\rtservice.h
 .\build\mem.o: ..\..\include\rtm.h
 .\build\mem.o: ..\..\include\rtthread.h
+.\build\mem.o: ..\..\components\finsh\finsh.h
+.\build\mem.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\mem.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\mem.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h

@@ -26,6 +26,8 @@
 .\build\image_xpm.o: ..\..\components\gui\include\rtgui/region.h
 .\build\image_xpm.o: ..\..\components\gui\include\rtgui/event.h
 .\build\image_xpm.o: ..\..\components\drivers\include\rtdevice.h
+.\build\image_xpm.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\image_xpm.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\image_xpm.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\image_xpm.o: ..\..\components\drivers\include\drivers/can.h
 .\build\image_xpm.o: ..\..\components\gui\include\rtgui/kbddef.h

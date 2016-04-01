@@ -21,6 +21,8 @@
 .\build\dc_blend.o: ..\..\components\gui\include\rtgui/region.h
 .\build\dc_blend.o: ..\..\components\gui\include\rtgui/event.h
 .\build\dc_blend.o: ..\..\components\drivers\include\rtdevice.h
+.\build\dc_blend.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\dc_blend.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\dc_blend.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\dc_blend.o: ..\..\components\drivers\include\drivers/can.h
 .\build\dc_blend.o: ..\..\components\gui\include\rtgui/kbddef.h
@@ -28,4 +30,3 @@
 .\build\dc_blend.o: ..\..\components\gui\include\rtgui/blit.h
 .\build\dc_blend.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
 .\build\dc_blend.o: E:\MDK\ARM\ARMCC\Bin\..\include\math.h
-.\build\dc_blend.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h

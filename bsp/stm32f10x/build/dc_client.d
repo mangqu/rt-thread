@@ -21,6 +21,8 @@
 .\build\dc_client.o: ..\..\components\gui\include\rtgui/region.h
 .\build\dc_client.o: ..\..\components\gui\include\rtgui/event.h
 .\build\dc_client.o: ..\..\components\drivers\include\rtdevice.h
+.\build\dc_client.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\dc_client.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\dc_client.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\dc_client.o: ..\..\components\drivers\include\drivers/can.h
 .\build\dc_client.o: ..\..\components\gui\include\rtgui/kbddef.h

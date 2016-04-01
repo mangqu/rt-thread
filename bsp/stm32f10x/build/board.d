@@ -41,3 +41,14 @@
 .\build\board.o: Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
 .\build\board.o: drivers\board.h
 .\build\board.o: drivers\usart.h
+.\build\board.o: ..\..\include\components.h
+.\build\board.o: ..\..\components\finsh\finsh.h
+.\build\board.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\board.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\board.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\build\board.o: ..\..\components\finsh\shell.h
+.\build\board.o: ..\..\components\dfs\include\dfs_init.h
+.\build\board.o: ..\..\components\dfs\include\dfs_fs.h
+.\build\board.o: ..\..\components\dfs\include\dfs_def.h
+.\build\board.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\board.o: ..\..\components\dfs\include\dfs_elm.h

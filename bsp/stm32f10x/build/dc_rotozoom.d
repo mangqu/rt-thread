@@ -23,6 +23,7 @@
 .\build\dc_rotozoom.o: ..\..\components\gui\include\rtgui/region.h
 .\build\dc_rotozoom.o: ..\..\components\gui\include\rtgui/event.h
 .\build\dc_rotozoom.o: ..\..\components\drivers\include\rtdevice.h
+.\build\dc_rotozoom.o: ..\..\components\drivers\include\drivers/spi.h
 .\build\dc_rotozoom.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\dc_rotozoom.o: ..\..\components\drivers\include\drivers/can.h
 .\build\dc_rotozoom.o: ..\..\components\gui\include\rtgui/kbddef.h

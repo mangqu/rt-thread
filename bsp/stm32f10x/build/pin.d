@@ -9,5 +9,10 @@
 .\build\pin.o: ..\..\include\rtm.h
 .\build\pin.o: ..\..\include\rtthread.h
 .\build\pin.o: ..\..\components\drivers\include\rtdevice.h
+.\build\pin.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\pin.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\pin.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\pin.o: ..\..\components\drivers\include\drivers/can.h
+.\build\pin.o: ..\..\components\finsh\finsh.h
+.\build\pin.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\pin.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h

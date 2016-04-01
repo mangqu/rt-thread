@@ -8,5 +8,7 @@
 .\build\portal.o: ..\..\include\rtm.h
 .\build\portal.o: ..\..\include\rtthread.h
 .\build\portal.o: ..\..\components\drivers\include\rtdevice.h
+.\build\portal.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\portal.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\portal.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\portal.o: ..\..\components\drivers\include\drivers/can.h

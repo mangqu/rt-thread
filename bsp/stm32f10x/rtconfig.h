@@ -57,7 +57,7 @@
 #define RT_USING_SMALL_MEM
 
 // <bool name="RT_USING_COMPONENTS_INIT" description="Using RT-Thread components initialization" default="true" />
-//#define RT_USING_COMPONENTS_INIT
+#define RT_USING_COMPONENTS_INIT
 
 /* SECTION: Device System */
 /* Using Device System */
@@ -67,6 +67,8 @@
 // <bool name="RT_USING_SERIAL" description="Using Serial" default="true" />
 #define RT_USING_SERIAL
 
+#define RT_USING_SPI1
+
 /* SECTION: Console options */
 #define RT_USING_CONSOLE
 /* the buffer size of console*/
@@ -75,7 +77,7 @@
 #define RT_CONSOLE_DEVICE_NAME	    "uart1"
 
 /* SECTION: finsh, a C-Express shell */
-//#define RT_USING_FINSH
+#define RT_USING_FINSH
 /* Using symbol table */
 #define FINSH_USING_SYMTAB
 #define FINSH_USING_DESCRIPTION
@@ -84,11 +86,13 @@
 
 #define RT_USING_CAN
 
+#define RT_USING_SPI
+
 #define RT_CAN_USING_BUS_HOOK
 
 #define RT_CAN_USING_HDR
 /* SECTION: device filesystem */
-/* #define RT_USING_DFS */
+#define RT_USING_DFS
 
 #define RT_USING_DFS_ELMFAT
 /* Reentrancy (thread safe) of the FatFs module.  */
@@ -99,12 +103,12 @@
 /* #define RT_DFS_ELM_CODE_PAGE			936 */
 #define RT_DFS_ELM_MAX_LFN			255
 /* Maximum sector size to be handled. */
-#define RT_DFS_ELM_MAX_SECTOR_SIZE  512
+#define RT_DFS_ELM_MAX_SECTOR_SIZE  4096
 
 /* the max number of mounted filesystem */
-//#define DFS_FILESYSTEMS_MAX			2
+#define DFS_FILESYSTEMS_MAX			2
 /* the max number of opened files 		*/
-//#define DFS_FD_MAX					4
+#define DFS_FD_MAX					4
 
 /* SECTION: lwip, a lighwight TCP/IP protocol stack */
 /* #define RT_USING_LWIP */
@@ -159,7 +163,7 @@
 //#define RT_LWIP_TCP_WND		8192
 
 /* SECTION: RT-Thread/GUI */
-#define RT_USING_RTGUI
+//#define RT_USING_RTGUI
 
 /* name length of RTGUI object */
 #define RTGUI_NAME_MAX		12

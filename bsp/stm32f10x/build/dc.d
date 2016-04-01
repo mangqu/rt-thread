@@ -22,6 +22,8 @@
 .\build\dc.o: ..\..\components\gui\include\rtgui/region.h
 .\build\dc.o: ..\..\components\gui\include\rtgui/event.h
 .\build\dc.o: ..\..\components\drivers\include\rtdevice.h
+.\build\dc.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\dc.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\dc.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\dc.o: ..\..\components\drivers\include\drivers/can.h
 .\build\dc.o: ..\..\components\gui\include\rtgui/kbddef.h
@@ -35,4 +37,3 @@
 .\build\dc.o: ..\..\components\gui\include\rtgui/widgets/box.h
 .\build\dc.o: ..\..\components\gui\include\rtgui/widgets/title.h
 .\build\dc.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
-.\build\dc.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h

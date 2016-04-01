@@ -38,3 +38,7 @@
 .\build\led.o: Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\build\led.o: Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\build\led.o: Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\build\led.o: ..\..\components\finsh\finsh.h
+.\build\led.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\led.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\led.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h

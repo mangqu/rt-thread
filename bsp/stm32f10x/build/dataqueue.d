@@ -8,6 +8,8 @@
 .\build\dataqueue.o: ..\..\include\rtm.h
 .\build\dataqueue.o: ..\..\include\rtthread.h
 .\build\dataqueue.o: ..\..\components\drivers\include\rtdevice.h
+.\build\dataqueue.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\dataqueue.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\dataqueue.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\dataqueue.o: ..\..\components\drivers\include\drivers/can.h
 .\build\dataqueue.o: ..\..\include\rthw.h

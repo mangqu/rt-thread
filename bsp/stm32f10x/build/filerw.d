@@ -13,3 +13,11 @@
 .\build\filerw.o: ..\..\components\gui\include\rtgui/rtgui_object.h
 .\build\filerw.o: ..\..\components\gui\include\rtgui/rtgui.h
 .\build\filerw.o: ..\..\components\gui\include\rtgui/filerw.h
+.\build\filerw.o: ..\..\components\dfs\include\dfs_posix.h
+.\build\filerw.o: ..\..\components\dfs\include\dfs_file.h
+.\build\filerw.o: ..\..\components\dfs\include\dfs_def.h
+.\build\filerw.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\filerw.o: ..\..\components\dfs\include\dfs.h
+.\build\filerw.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h
+.\build\filerw.o: ..\..\components\dfs\include\dfs_fs.h
+.\build\filerw.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h

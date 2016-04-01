@@ -43,6 +43,8 @@
 .\build\touch.o: ..\..\include\rtthread.h
 .\build\touch.o: ..\..\components\gui\include\rtgui/event.h
 .\build\touch.o: ..\..\components\drivers\include\rtdevice.h
+.\build\touch.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\touch.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\touch.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\touch.o: ..\..\components\drivers\include\drivers/can.h
 .\build\touch.o: ..\..\components\gui\include\rtgui/rtgui.h
@@ -53,3 +55,6 @@
 .\build\touch.o: ..\..\components\gui\include\rtgui/rtgui_server.h
 .\build\touch.o: ..\..\components\gui\include\rtgui/list.h
 .\build\touch.o: ..\..\components\gui\include\rtgui/rtgui_system.h
+.\build\touch.o: ..\..\components\finsh\finsh.h
+.\build\touch.o: E:\MDK\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\touch.o: E:\MDK\ARM\ARMCC\Bin\..\include\string.h

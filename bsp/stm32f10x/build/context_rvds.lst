@@ -302,11 +302,11 @@ ARM Macro Assembler    Page 5
               E000ED08 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\build\context_rvds.d -o.\build\context_rvds.o -ID:\study\rt_thre
-ad\rt-thread-master-2016-3-8\rt-thread-master\bsp\stm32f10x\RTE -IE:\MDK\ARM\PA
-CK\Keil\STM32F1xx_DFP\2.0.0 -IE:\MDK\ARM\CMSIS\Include -IE:\MDK\ARM\PACK\Keil\S
-TM32F1xx_DFP\2.0.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine="
-__UVISION_VERSION SETA 514" --predefine="STM32F10X_HD SETA 1" --list=.\build\co
-ntext_rvds.lst ..\..\libcpu\arm\cortex-m3\context_rvds.S
+ad\rt-thread-master-2016-3-8\smartgit\rt-thread\bsp\stm32f10x\RTE -IE:\MDK\ARM\
+PACK\Keil\STM32F1xx_DFP\2.0.0 -IE:\MDK\ARM\CMSIS\Include -IE:\MDK\ARM\PACK\Keil
+\STM32F1xx_DFP\2.0.0\Device\Include --predefine="__MICROLIB SETA 1" --predefine
+="__UVISION_VERSION SETA 514" --predefine="STM32F10X_HD SETA 1" --list=.\build\
+context_rvds.lst ..\..\libcpu\arm\cortex-m3\context_rvds.S
 
 
 

@@ -9,5 +9,7 @@
 .\build\pipe.o: ..\..\include\rtm.h
 .\build\pipe.o: ..\..\include\rtthread.h
 .\build\pipe.o: ..\..\components\drivers\include\rtdevice.h
+.\build\pipe.o: ..\..\components\drivers\include\drivers/spi.h
+.\build\pipe.o: E:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 .\build\pipe.o: ..\..\components\drivers\include\drivers/serial.h
 .\build\pipe.o: ..\..\components\drivers\include\drivers/can.h
